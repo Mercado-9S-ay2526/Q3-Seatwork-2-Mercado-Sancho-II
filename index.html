@@ -20,12 +20,29 @@
 </header>
 
     <main>
-        <div class="container-fluid mt-3">
-    <div class="container p-5 mt-5 bg-warning text-dark">
-    <h3>Want crazy gaming laptops!</h3><hr>
+        <div class="container-fluid">
+    <div class="container p-5 mt-5 bg-warning text-dark text-center rounded">
+    <h2>Want crazy gaming laptops!</h2><hr>
     <p>Enter your budget for best price!🤑 </p>
-    <input type="number" id="budget" placeholder="Enter your budget here"><br>
+    <input type="number" id="budget" class="form-control w-30" placeholder="Enter your budget here"><br>
+    </div>
+
+    <button type="button" class="btn btn-warning mt-5" onclick="seeDiscount()">Brand and discounts</button>
+   
+    <div id="discountResult">
     
+    </div>
+    
+    <button type="button" class="btn btn-warning mt-5" onclick="seeStoreLocation()">store location</button>
+        <div class="container" id="storelocation">
+    <div class="container p-5 mt-5 bg-dark text-light text-center rounded">Store location
+    <img src="https://d3up48wss6lvj.cloudfront.net/data/uploads/2020/07/VILLMAN.jpg" alt="store location" style="width: 600px; height: 200px;" class="img-fluid rounded">
+    </div>
+    <div id="seeStoreLocation">
+    
+    </div>
+
+
     </main>
     
     <footer class="bg-dark text-white fixed-bottom text-center">
